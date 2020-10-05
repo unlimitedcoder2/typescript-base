@@ -1,2 +1,2 @@
 # typescript-base
-Some shitty template for typescript node
+Some shitty template for using typescript with node.js
