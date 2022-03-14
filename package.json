@@ -5,7 +5,7 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"dev": "tsc --build && env-cmd node .",
-		"start: "node .",
+		"start": "node .",
 		"prestart": "tsc --build",
 		"lint": "eslint --fix src/**/*.ts"
 	},
