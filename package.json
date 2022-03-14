@@ -4,7 +4,8 @@
 	"description": "Template for typescript node",
 	"main": "dist/index.js",
 	"scripts": {
-		"start": "env-cmd node .",
+		"dev": "tsc --build && env-cmd node .",
+		"start: "node .",
 		"prestart": "tsc --build",
 		"lint": "eslint --fix src/**/*.ts"
 	},
